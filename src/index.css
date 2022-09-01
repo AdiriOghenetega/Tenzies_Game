@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+.app{
+  position: relative;
+width: 360px;
+height: auto;
+left: 46px;
+top: 69px;
+margin : auto;
+background: linear-gradient(100deg, gray 100%, rgba(14, 12, 12, 0) 25%);
+border-radius: 0 0 10px 10px;
+}
+.main{
+  position : relative;
+  top: 30px;
+  width: 320px;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+height: 400px;
+margin : auto;
+background: #F5F5F5;
+border-radius: 10px;
+text-align: center;
+padding : 24px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.main>h1{
+  position : relative ;
+  font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 25.6px;
+line-height: 30px;
+
+
+
+letter-spacing: -0.03em;
+
+color: #2B283A;
+}
+.main>p{
+  position: relative ;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13.1072px;
+line-height: 16px;
+letter-spacing: -0.03em;
+
+color: #4A4E74;
+}
+.main-btn{
+  position: relative ;
+  bottom: 130px;
+  Width:92.16px;
+Height:35.84px;
+  background: #59E391;
+box-shadow: 0px 3.2px 7.68px #50091e;
+border-radius: 3.81277px;
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16.384px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.lost-btn{
+  position: relative ;
+  /* bottom: 130px; */
+  Width:92.16px;
+Height:35.84px;
+  background: #59E391;
+box-shadow: 0px 3.2px 7.68px #50091e;
+border-radius: 3.81277px;
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16.384px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.start-button{
+  position: relative ;
+  /* bottom: 130px; */
+  Width:120px;
+Height:35.84px;
+  background: #59E391;
+box-shadow: 0px 3.2px 7.68px #50091e;
+border-radius: 3.81277px;
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16.384px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.endgame-btn{
+  position: relative ;
+  /* bottom: 130px; */
+  Width:100px;
+Height:35.84px;
+  background: #59E391;
+box-shadow: 0px 3.2px 7.68px #50091e;
+border-radius: 3.81277px;
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16.384px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.endgame-btn2{
+  position: relative ;
+  bottom: 130px;
+  Width:100px;
+Height:35.84px;
+  background: #59E391;
+box-shadow: 0px 3.2px 7.68px #50091e;
+border-radius: 3.81277px;
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 16.384px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.lost-buttons{
+  display: flex;
+  gap:18px
+}
+.win-buttons{
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+
+.boxes{
+  Width: 35px ;
+Height : 35px ;
+cursor: pointer;
+
+/* border : 1px solid black; */
+background-color: white;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+border-radius: 3.81277px;
+}
+.myBox{
+  margin-top: 50px;
+      display: grid;
+  grid-template: 35px 35px 35px 35px 35px / 1fr 1fr 1fr 1fr 1fr ;
+gap:18px
+}
+.digits{
+  position: relative ;
+  top: 8px;
+  
+}
