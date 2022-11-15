@@ -14,8 +14,8 @@ export default function Confetti(){
     return (
         <>
        <ReactConfetti 
-        width={size.width}
-        height={size.height}
+        width="290px"
+        height="400px"
         tweenDuration={1000}
         />
         </>
